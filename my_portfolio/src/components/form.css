@@ -1,0 +1,31 @@
+.cnt{
+    text-decoration: underline;
+    font-size: larger;
+    position:relative;
+    left:80px;
+}
+.container1{
+    width:max-content;
+    padding: 60px;
+    flex-wrap: wrap;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    bottom:350px;
+    left:580px;
+    border-style:solid;
+    border-radius: 4px 4px 4px solid black;
+    
+}
+
+@media (max-width: 600px) {
+    .container1 {
+        padding: 20px;
+    }
+    
+    input, button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

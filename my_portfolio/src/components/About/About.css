@@ -1,0 +1,239 @@
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.icons{
+    align-items: center;
+    margin: 5px;
+    padding: 7px ;
+
+}
+.fa-github{
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    transition: color 0.8s ease;
+    padding: 10px;
+}
+.fa-github:hover{
+    color:rgb(9, 9, 131);
+
+}
+.fa-linkedin{
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    transition: color 0.8s ease;
+}
+.fa-linkedin:hover{
+    color:rgb(9, 9, 131);
+}
+.about-right{
+    align-items: center;
+    text-align: center;
+}
+.about-skills{
+    position:relative;
+    text-align:center;
+    gap:150px;
+    font-size: larger;
+    text-decoration: underline;
+}
+button{
+    color:black;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 7px;
+    font-size: medium;
+    font-weight:500;
+    background-color: rgb(247, 199, 199);
+    border-radius:4px 5px ;
+    border-style: double;
+    text-align: center;
+}
+button:hover{
+    color:brown;
+}
+.projects{
+    background-color: black;
+    color: white;
+    width:150px;
+    justify-content: center;
+}
+.projects:hover{
+    color:burlywood;
+}
+.skills{
+    background-color: black;
+    color: white;
+    width:100px;
+}
+.skills:hover{
+    color:burlywood;
+}
+
+.box-container{
+    position: absolute;
+    display:flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:50px;
+    width:220px;
+    height: 250px;
+    padding: 25px 20px;
+    
+}
+.box-container1{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:400px;
+    position: absolute;
+    width:220px;
+    height: 250px;
+    padding: 25px 20px;
+    
+}
+.box-container2{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:750px;
+    position: absolute;
+    width:220px;
+    height: 250px;
+    padding: 25px 20px;
+    
+}
+.box-container3{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:1100px;
+    position: absolute;
+    width:220px;
+    height: 250px;
+    padding: 25px 20px;
+}
+.view{
+    display: inline-block;
+    padding: 1px 10px;
+    color: rgb(0, 0, 0);
+   
+    text-decoration: none;
+    border-radius: 2px;
+}
+.Internship{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top:350px;
+    width:170px;
+    left:670px;
+}
+
+.Certificate1{
+    align-items: center;
+    position: relative;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:40px;
+    top:370px;
+    width:230px;
+    height: 240px;
+    padding: 25px 20px;
+}
+.certi2{
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    border: 2px;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:380px;
+    top:80px;
+    width:230px;
+    height: 240px;
+    padding: 25px 20px;
+}
+.certificate3{
+    align-items: center;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    border: 2px;
+    border-radius: 10px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:740px;
+    bottom: 210px;
+    width:230px;
+    height: 240px;
+    padding: 25px 20px;
+}
+.certificate4{
+    align-items: center;
+    position:relative;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    border-radius: 15px solid black;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(253, 200, 208);
+    left:1100px;
+    bottom:500px;
+    width:230px;
+    height: 230px;
+    padding: 25px 20px;
+}
+.certi{
+    display: inline-block;
+    margin-top: 2px;
+    padding: 1px 2px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 2px;
+}

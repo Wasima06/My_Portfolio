@@ -1,0 +1,83 @@
+header{
+    background-color: black;
+    padding:0px;
+    color:white;
+    justify-content: space-between;
+    width: 100%;
+    margin:0px;
+    display: flex;
+}
+
+.H{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+.H:hover{
+    transform: scale(1.05)white;
+}
+.about-right1{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+.about-right1:hover{
+    transform: scale(0.01)white;
+}
+.H2{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+.H2:hover{
+    transform: scale(0.01)white;
+}
+.H3{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+.H3:hover{
+    transform: scale(0.01)white;
+}
+.H4{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+.H4:hover{
+    transform: scale(0.05)white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin:15px 100px;
+    justify-content: space-between;
+}
+.nav-menu{
+    display:flex;
+    align-items:flex-end;
+    list-style: none;
+    gap:60px;
+    font-size: 15px;
+    cursor:alias;
+}
+/*.nav-menu:hover{
+    transform: scale(1.01);
+}*/
+
+.nav-connect1{
+    position: relative;
+    left:450px;
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(267deg,#b57575 0.36%,#988664);
+    padding: 10px 15px;
+    border-radius: 30px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.nav-connect1:hover{
+    transform: scale(1.5);
+}
