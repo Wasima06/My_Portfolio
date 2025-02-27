@@ -1,0 +1,70 @@
+.hero{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    gap:20px;
+    font-size: small;
+    position: relative;
+    left:40px;
+    top:20px;
+}
+.name{
+    position: relative;
+    font-style: italic;
+    font-size: 40px;
+    color:rgb(228, 34, 115);
+    bottom:100px;
+    left:250px;
+    font-weight:bold;
+    padding: 10px;
+    border-end-start-radius: 0.1rem;
+    
+}
+.hero-action{
+    display:flex;
+    position: relative;
+    right:250px;
+    align-items: center;
+    gap:40px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 16px 25px;
+    border-radius: 30px;
+    background:linear-gradient(267deg,#b57575 0.36%,#beab86);
+    cursor: pointer;
+    text-decoration: none;
+}
+.hero-connect:hover{
+    border:1px solid black;
+}
+.hero-connect, .project-card b {
+    display:inline-block;
+    color:black;
+    padding: 8px 10px;
+    margin-top: 1px;
+    text-decoration: none;
+    transition: background;
+    
+}
+.hero-resume{
+    padding: 13px 30px;
+    color:black;
+    border-radius: 30px;
+    background:linear-gradient(267deg,#b57575 0.36%,#d7be90);
+    cursor: pointer;
+}
+.hero-resume:hover{
+    border:1px solid black;
+}
+.resume-button, .project-card a {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 2px 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background
+}

@@ -1,0 +1,81 @@
+
+.h3{
+  position: relative;
+  bottom:430px;
+  left:700px;
+  color:rgb(226, 76, 101);
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.form {
+  width: 100%;
+  margin: 10px;
+  position: relative;
+  left:450px;
+  bottom:420px;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  position: relative;
+  margin-top: 10px;
+  top:90px;
+  right:260px;
+  margin-bottom: px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  position: relative;
+  top:10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="message"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  right:1px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1805ab;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #060d8e;
+}

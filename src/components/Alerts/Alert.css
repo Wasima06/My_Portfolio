@@ -1,0 +1,25 @@
+/* Alert.css */
+.alert-container {
+    width: 50%;
+    position: relative;
+    left:700px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    margin-top: 20px;
+  }
+  
+  .alert-container .MuiAlert-root {
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .alert-container .MuiAlertTitle-root {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  

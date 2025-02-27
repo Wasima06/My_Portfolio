@@ -1,0 +1,84 @@
+header{
+    background-color: rgb(5, 5, 49);
+    padding: 0px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+    margin: 0px;
+}
+
+.H{
+    text-decoration: none;
+    background-color: rgb(5, 5, 49);
+    color:white;
+    cursor:pointer;
+    transition: 0.8s;
+}
+.H:hover{
+    border:2px ;
+}
+.about-right1{
+    text-decoration: none;
+    background-color: rgb(5, 5, 49);
+    color:white;
+}
+.about-right1:hover{
+    border:2px ;
+}
+.H2{
+    text-decoration: none;
+    background-color: rgb(5, 5, 49);
+    color:white;
+}
+.H2:hover{
+    border:2px ;
+}
+.H3{
+    text-decoration: none;
+    background-color: rgb(5, 5, 49);
+    color:white;
+}
+.H3:hover{
+    border:2px;
+}
+.H4{
+    text-decoration: none;
+    background-color: rgb(5, 5, 49);
+    color:white;
+}
+.H4:hover{
+    border:2px ;
+}
+.navbar{
+    display: flex;
+    background-color:rgb(5, 5, 49) ;
+    align-items: center;
+    margin:15px 100px;
+    justify-content: space-between;
+}
+.nav-menu{
+    display:flex;
+    background-color: rgb(5, 5, 49);
+    align-items:flex-end;
+    list-style: none;
+    gap:60px;
+    font-size: 15px;
+    cursor:alias;
+}
+.nav-connect1{
+    background-color:rgb(5, 5, 49) ;
+    position: relative;
+    left:450px;
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(267deg,#b57575 0.36%,#988664);
+    padding: 10px 15px;
+    border-radius: 30px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.nav-connect1:hover{
+    border:2px solid rgb(244, 244, 244);
+}

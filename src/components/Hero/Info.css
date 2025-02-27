@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 2s forwards;
+    animation-delay: 0.2s;
+    
+    
+}
+
+.hero h1 {
+    font-size:medium;
+    font-style: italic;
+    color:rgb(247, 199, 199);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info p {
+    color:white;
+    font-size: 1.2em;
+}
+
+@keyframes fadeInUp {
+    from {
+        align-items: center;
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        align-items: center;
+        opacity: 1;
+        transform: translateY(10);
+    }
+}

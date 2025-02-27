@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x:hidden;
+  height: 100vh;
+  flex-wrap: wrap;
+  display: flexbox; 
+  background: linear-gradient(270deg, #07078b 0.6%, #040404);
+  color: white;
+  
+}
+
+

@@ -1,0 +1,14 @@
+.container {
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    top:1px;
+    padding: 35px;
+    text-align: center;
+    width:100%;
+}
+.privacy{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
