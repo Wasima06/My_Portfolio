@@ -37,7 +37,7 @@ building Websites ,learning new languages and exploring new things </i>.
             <p><i>This is my Personal portfolio<br></br>made by using the Fullstack technologiesto showcase<br></br> my Skills,projects and Virtual 
             internships which i have done in my career journey</i>
         </p>
-        <button><a href="https://github.com/Wasima06/My_Portfolio.git" target="_blank" className='view'>View</a></button>
+        <button><a href="https://github.com/Wasima06/PORTFOLIO.git" target="_blank" className='view'>View</a></button>
     </div>
     <div className="box-container1">
         <h3>Quora Posts</h3>
